@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title><![CDATA[Hexo修改文章new命令模板]]></title>
+      <url>http://MrPpan.com/2016/06/15/Hexo%E4%BF%AE%E6%94%B9new%E5%91%BD%E4%BB%A4%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</url>
+      <content type="html"><![CDATA[<p>盘盘每次new文章的时候，默认生成的文档内容如下：</p>
+<pre><code>---
+title: 
+date: 
+tags: 
+---
+</code></pre><p>盘盘是懒人，但是写文档都喜欢分类归档使用 “categories” 标签,不想每次使用命令：</p>
+<pre><code>hexo new &quot;文章标题&quot;
+</code></pre><p>的时候都生成的 “md” 文档都是只有tiele\date\tags,还要手工码那11个字符。还想在中间加个 “categories” 该怎么办呢？</p>
+<p>使用以下方法：</p>
+<p>目录：hexo\scaffolds\下面应该有draft.md\page.md\post.md文件，分别为草稿、页面、文章，的模版。</p>
+<p>我们现在要修改的是post.md文件，默认只有：tiele\date\tags。<br>因为我只添加了categories，打开post.md文件修改为：</p>
+<pre><code>---
+title: 
+date: 
+categories：
+tags: 
+---
+</code></pre><p>下次使用：</p>
+<pre><code>hexo nwe &quot;文章标题&quot;
+</code></pre><p>的时候就包含了 “categories：” 啦！！</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo使用Swiftype建立站内搜索]]></title>
+      <url>http://MrPpan.com/2016/06/15/Hexo%E4%BD%BF%E7%94%A8Swiftype%E5%BB%BA%E7%AB%8B%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2/</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[至新建博客的第一篇post]]></title>
       <url>http://MrPpan.com/2016/06/12/%E8%87%B3%E6%96%B0%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87post/</url>
       <content type="html"><![CDATA[<p>看了很多的博客搭好后第一件事就是鸡歪下如何搭建，不例外了，哈哈！！ 我也来鸡歪下。。</p>
