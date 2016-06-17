@@ -4,8 +4,25 @@
   
     
     <entry>
-      <title><![CDATA[Hexo修改文章new命令模板]]></title>
-      <url>http://MrPpan.com/2016/06/15/Hexo%E4%BF%AE%E6%94%B9new%E5%91%BD%E4%BB%A4%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</url>
+      <title><![CDATA[解决手机谷歌地图（google maps）国内无法下载离线地图]]></title>
+      <url>http://MrPpan.com/2016/06/17/%E8%A7%A3%E5%86%B3%E6%89%8B%E6%9C%BA%E8%B0%B7%E6%AD%8C%E5%9C%B0%E5%9B%BE%EF%BC%88google%20maps%EF%BC%89%E5%9B%BD%E5%86%85%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E7%A6%BB%E7%BA%BF%E5%9C%B0%E5%9B%BE/</url>
+      <content type="html"><![CDATA[<p>注意：我的是安卓系统，用不起苹果手机。</p>
+<p>个人还是比较喜欢（gooogle maps），百度地图在国内确实做的很不错，就是广告太多了，会经常弹东西出来啊！！<br>在这里盘盘就不对这两个地图进行比较啦！各有各的好处。自己喜欢就好啦！！</p>
+<p>千万别问我怎么爬墙啊！我怕查水表啊！</p>
+<p>最近想出门，手机没流量啊！！果断下载离线地图。然后发现如下图：</p>
+<img src="http://o8pwb5ycp.bkt.clouddn.com/googlemaps1.png" class="[class names]" width="350" height="750" title="[title text [alt text]]">
+<p>什么鬼，DOWLNLOAD(下载变成了灰色，意思就是说不能下载呗)(注意！！注意！！DOWLNLOAD；灰色跟黑色差不多要认真看)，This area isn’t （所在区域无法下载。。）<br>心中奔腾万匹草泥马。。。“-”。。。。懂的人自然懂，不懂的，，，就不吐槽了。</p>
+<p>Searchg之后发现还是有办法的。就是麻烦点。</p>
+<h4 id="方法如下："><a href="#方法如下：" class="headerlink" title="方法如下："></a>方法如下：</h4><p>   1、谷歌地图搜索Berlin(柏林一座很古老的城市)，进入地图设置》离线下载》添加（是不是发现）DOWLNLOAD(是不是变成了黑色，可以下载了)。</p>
+<img src="http://o8pwb5ycp.bkt.clouddn.com/googlemaps3.png" class="[class names]" width="350" height="750" title="[title text [alt text]]">
+<p>   2、然后小手指滑啊滑，使用切水果的技术，然后划到中国区域，然后（DOWLNLOAD）果然没变成黑色,恭喜你成功了。<br>注意：如果划到我国地盘变成了灰色，就放大缩小或移动一下，DOWLNLOAD还是会变成黑色的哦！！！</p>
+<img src="http://o8pwb5ycp.bkt.clouddn.com/googlemaps2.png" class="[class names]" width="350" height="750" title="[title text [alt text]]">
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo修改文章模板]]></title>
+      <url>http://MrPpan.com/2016/06/15/Hexo%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</url>
       <content type="html"><![CDATA[<p>盘盘每次new文章的时候，默认生成的文档内容如下：</p>
 <pre><code>---
 title: 
