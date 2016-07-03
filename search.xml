@@ -4,6 +4,20 @@
   
     
     <entry>
+      <title><![CDATA[WinSCP远程管理Linux服务器文件]]></title>
+      <url>http://MrPpan.com/2016/07/03/WinSCP%E8%BF%9C%E7%A8%8B%E7%AE%A1%E7%90%86Linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%96%87%E4%BB%B6/</url>
+      <content type="html"><![CDATA[<p>我们使用WinSCP来通过远程登陆管理远程linux服务器的文件。<br>可以下载备份相关文件和上载文件。</p>
+<p>打开 wwww.winscp.net</p>
+<img src="http://o8pwb5ycp.bkt.clouddn.com/winscp1.jpg" class="[class names]" title="[title text [alt text]]">
+<p>下载WinSCP ,可以下载便携版的，不需要安装，下载即用。</p>
+<img src="http://o8pwb5ycp.bkt.clouddn.com/winscp2.jpg" class="[class names]" title="[title text [alt text]]">
+<p>打开开后，输入服务器IP、用户名、密码、登陆。</p>
+<img src="http://o8pwb5ycp.bkt.clouddn.com/winscp3.jpg" class="[class names]" title="[title text [alt text]]">
+<p>登陆成功后可以看到远程服务器的目录文件，同时可以进行文件下载和上传管理。</p>
+<img src="http://o8pwb5ycp.bkt.clouddn.com/winscp4.jpg" class="[class names]" title="[title text [alt text]]">]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[解决手机谷歌地图（google maps）国内无法下载离线地图]]></title>
       <url>http://MrPpan.com/2016/06/17/%E8%A7%A3%E5%86%B3%E6%89%8B%E6%9C%BA%E8%B0%B7%E6%AD%8C%E5%9C%B0%E5%9B%BE%EF%BC%88google%20maps%EF%BC%89%E5%9B%BD%E5%86%85%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E7%A6%BB%E7%BA%BF%E5%9C%B0%E5%9B%BE/</url>
       <content type="html"><![CDATA[<p>注意：我的是安卓系统，用不起苹果手机。</p>
