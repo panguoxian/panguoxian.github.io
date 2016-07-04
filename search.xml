@@ -4,8 +4,8 @@
   
     
     <entry>
-      <title><![CDATA[CentOS-安装-Shadowsocks-科学上网]]></title>
-      <url>http://MrPpan.com/2016/07/04/CentOS-%E5%AE%89%E8%A3%85-Shadowsocks-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+      <title><![CDATA[CentOS安装Shadowsocks科学上网]]></title>
+      <url>http://MrPpan.com/2016/07/04/CentOS%E5%AE%89%E8%A3%85Shadowsocks%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
       <content type="html"><![CDATA[<p>准备工具:<br>        1、VPS服务器（最好节点选洛杉矶或凤凰城的，速度相对折中点）<br>        2、putty或SecureCRT (远程操作部署VPS上的Shadowsocks)</p>
 <h1 id="Step1-安装Shadowsocks"><a href="#Step1-安装Shadowsocks" class="headerlink" title="Step1:安装Shadowsocks"></a>Step1:安装Shadowsocks</h1><p>安装可参考<a href="https://github.com/shadowsocks/shadowsocks/blob/master/README.md" title="[external] [title]" target="_blank" rel="external">这里</a></p>
 <p>盘盘使用CentOS<br>putty或是SecrueCRT登陆远程VPS的Linux系统。<br>使用以下命令先安装python-setuptools和easy_install pip<br>yum install python-setuptools &amp;&amp; easy_install pip<br>使用以下命令安装Shadowsocks<br>pip install shadowsocks</p>
