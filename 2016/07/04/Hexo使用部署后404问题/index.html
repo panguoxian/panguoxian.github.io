@@ -4,47 +4,32 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Hexo修改文章模板 | Pan pan Blog</title>
+    <title>Hexo使用部署后404问题 | Pan pan Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="盘盘">
     
 
     
-    <meta name="description" content="盘盘每次new文章的时候，默认生成的文档内容如下：
----
-title: 
-date: 
-tags: 
----
-盘盘是懒人，但是写文档都喜欢分类归档使用 “categories” 标签,不想每次使用命令：
-hexo new &amp;quot;文章标题&amp;quot;
-的时候都生成的 “md” 文档都是只有tiele\date\tags,还要手工码那11个字符。还想在中间加个 “categories” 该怎么">
+    <meta name="description" content="刚才写了编posts，deploy到github后发404问题说找不到index.html，而且中是刚刚deploy上去的文章是404，其它都正常。
+使用生成posts，如下：hexo new “test test1 test2”
+发现文章标题”test test1 test2”中间有空格，使用hexo命令生成的”.md”文件里标题空格变成了”-“
+变成了这样：“test-test1-test2.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo修改文章模板">
-<meta property="og:url" content="http://MrPpan.com/2016/06/15/Hexo修改文章模板/index.html">
+<meta property="og:title" content="Hexo使用部署后404问题">
+<meta property="og:url" content="http://MrPpan.com/2016/07/04/Hexo使用部署后404问题/index.html">
 <meta property="og:site_name" content="Pan pan Blog">
-<meta property="og:description" content="盘盘每次new文章的时候，默认生成的文档内容如下：
----
-title: 
-date: 
-tags: 
----
-盘盘是懒人，但是写文档都喜欢分类归档使用 “categories” 标签,不想每次使用命令：
-hexo new &amp;quot;文章标题&amp;quot;
-的时候都生成的 “md” 文档都是只有tiele\date\tags,还要手工码那11个字符。还想在中间加个 “categories” 该怎么">
-<meta property="og:updated_time" content="2016-06-16T15:28:24.173Z">
+<meta property="og:description" content="刚才写了编posts，deploy到github后发404问题说找不到index.html，而且中是刚刚deploy上去的文章是404，其它都正常。
+使用生成posts，如下：hexo new “test test1 test2”
+发现文章标题”test test1 test2”中间有空格，使用hexo命令生成的”.md”文件里标题空格变成了”-“
+变成了这样：“test-test1-test2.">
+<meta property="og:updated_time" content="2016-07-04T09:28:18.706Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo修改文章模板">
-<meta name="twitter:description" content="盘盘每次new文章的时候，默认生成的文档内容如下：
----
-title: 
-date: 
-tags: 
----
-盘盘是懒人，但是写文档都喜欢分类归档使用 “categories” 标签,不想每次使用命令：
-hexo new &amp;quot;文章标题&amp;quot;
-的时候都生成的 “md” 文档都是只有tiele\date\tags,还要手工码那11个字符。还想在中间加个 “categories” 该怎么">
+<meta name="twitter:title" content="Hexo使用部署后404问题">
+<meta name="twitter:description" content="刚才写了编posts，deploy到github后发404问题说找不到index.html，而且中是刚刚deploy上去的文章是404，其它都正常。
+使用生成posts，如下：hexo new “test test1 test2”
+发现文章标题”test test1 test2”中间有空格，使用hexo命令生成的”.md”文件里标题空格变成了”-“
+变成了这样：“test-test1-test2.">
 
     
     <link rel="alternative" href="atom.xml" title="Pan pan Blog" type="application/atom+xml">
@@ -103,14 +88,14 @@ hexo new &amp;quot;文章标题&amp;quot;
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/06/15/Hexo修改文章模板/" title="Hexo修改文章模板" itemprop="url">Hexo修改文章模板</a>
+      <a href="/2016/07/04/Hexo使用部署后404问题/" title="Hexo使用部署后404问题" itemprop="url">Hexo使用部署后404问题</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="盘盘" target="_blank" itemprop="author">盘盘</a>
 		
   <p class="article-time">
-    <time datetime="2016-06-15T13:46:33.000Z" itemprop="datePublished"> Published 2016-06-15</time>
+    <time datetime="2016-07-04T09:19:34.000Z" itemprop="datePublished"> Published 2016-07-04</time>
     
   </p>
 </header>
@@ -123,27 +108,13 @@ hexo new &amp;quot;文章标题&amp;quot;
 		
 		</div>
 		
-		<p>盘盘每次new文章的时候，默认生成的文档内容如下：</p>
-<pre><code>---
-title: 
-date: 
-tags: 
----
-</code></pre><p>盘盘是懒人，但是写文档都喜欢分类归档使用 “categories” 标签,不想每次使用命令：</p>
-<pre><code>hexo new &quot;文章标题&quot;
-</code></pre><p>的时候都生成的 “md” 文档都是只有tiele\date\tags,还要手工码那11个字符。还想在中间加个 “categories” 该怎么办呢？</p>
-<p>使用以下方法：</p>
-<p>目录：hexo\scaffolds\下面应该有draft.md\page.md\post.md文件，分别为草稿、页面、文章，的模版。</p>
-<p>我们现在要修改的是post.md文件，默认只有：tiele\date\tags。<br>因为我只添加了categories，打开post.md文件修改为：</p>
-<pre><code>---
-title: 
-date: 
-categories：
-tags: 
----
-</code></pre><p>下次使用：</p>
-<pre><code>hexo nwe &quot;文章标题&quot;
-</code></pre><p>的时候就包含了 “categories：” 啦！！</p>
+		<p>刚才写了编posts，deploy到github后发404问题说找不到index.html，而且中是刚刚deploy上去的文章是404，其它都正常。</p>
+<p>使用生成posts，如下：<br>hexo new “test test1 test2”</p>
+<p>发现文章标题”test test1 test2”中间有空格，使用hexo命令生成的”.md”文件里标题空格变成了”-“</p>
+<p>变成了这样：<br>“test-test1-test2.md”</p>
+<p>解决：</p>
+<p>把md文件的名字改成跟文档的title一样就可以了。我直接把md文件的”-“去掉然后文章title的空格去掉。</p>
+<p>重新 generate,再deploy OKOK</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -151,13 +122,13 @@ tags:
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/Hexo/">Hexo</a>
+  <a class="article-category-link" href="/categories/HEXO/">HEXO</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Hexo/">Hexo</a><a href="/tags/模板/">模板</a><a href="/tags/文章/">文章</a>
+  <span></span> <a href="/tags/404-HEXO/">404 HEXO</a>
   </div>
 
 </div>
@@ -171,17 +142,10 @@ tags:
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2016/06/17/解决手机谷歌地图（google maps）国内无法下载离线地图/" title="解决手机谷歌地图（google maps）国内无法下载离线地图">
-  <span>
-  解决手机谷歌地图（google maps）国内无法下载离线地图</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2016/06/15/Hexo使用Swiftype建立站内搜索/"  title="Hexo使用Swiftype建立站内搜索">
- <span>Hexo使用Swiftype建立站内搜索
+<a href="/2016/07/04/CentOS安装Shadowsocks科学上网/"  title="CentOS安装Shadowsocks科学上网">
+ <span>CentOS安装Shadowsocks科学上网
 </span>
 </a>
 </div>
@@ -190,7 +154,7 @@ tags:
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2016/06/15/Hexo修改文章模板/" data-title="Hexo修改文章模板" data-url="http://MrPpan.com/2016/06/15/Hexo修改文章模板/"></div>
+	<div class="ds-thread" data-thread-key="2016/07/04/Hexo使用部署后404问题/" data-title="Hexo使用部署后404问题" data-url="http://MrPpan.com/2016/07/04/Hexo使用部署后404问题/"></div>
 </section>
 
 

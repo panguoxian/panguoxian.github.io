@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title><![CDATA[Hexo使用部署后404问题]]></title>
+      <url>http://MrPpan.com/2016/07/04/Hexo%E4%BD%BF%E7%94%A8%E9%83%A8%E7%BD%B2%E5%90%8E404%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>刚才写了编posts，deploy到github后发404问题说找不到index.html，而且中是刚刚deploy上去的文章是404，其它都正常。</p>
+<p>使用生成posts，如下：<br>hexo new “test test1 test2”</p>
+<p>发现文章标题”test test1 test2”中间有空格，使用hexo命令生成的”.md”文件里标题空格变成了”-“</p>
+<p>变成了这样：<br>“test-test1-test2.md”</p>
+<p>解决：</p>
+<p>把md文件的名字改成跟文档的title一样就可以了。我直接把md文件的”-“去掉然后文章title的空格去掉。</p>
+<p>重新 generate,再deploy OKOK</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[CentOS安装Shadowsocks科学上网]]></title>
       <url>http://MrPpan.com/2016/07/04/CentOS%E5%AE%89%E8%A3%85Shadowsocks%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
       <content type="html"><![CDATA[<p>准备工具:<br>        1、VPS服务器（最好节点选洛杉矶或凤凰城的，速度相对折中点）<br>        2、putty或SecureCRT (远程操作部署VPS上的Shadowsocks)</p>
